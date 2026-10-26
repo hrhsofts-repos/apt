@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HRHsofts Apps</title>
+<style>
+:root{--bg:#fafafa;--fg:#1d1d1f;--muted:#5e5e66;--card:#fff;--accent:#1c71d8;--line:#e2e2e6}
+@media (prefers-color-scheme:dark){:root{--bg:#1e1e20;--fg:#f2f2f4;--muted:#a9a9b2;--card:#2a2a2d;--accent:#78aeed;--line:#3a3a3e}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,Cantarell,Ubuntu,sans-serif}
+main{max-width:980px;margin:0 auto;padding:32px 16px}
+header{display:flex;gap:18px;align-items:center} header img{width:84px;height:84px}
+h1{margin:0;font-size:2rem} .pub{color:var(--accent);font-weight:600} .muted{color:var(--muted)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;overflow:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+figure img{width:100%;height:190px;object-fit:cover;object-position:top;display:block}
+figcaption{padding:8px 12px;font-size:.9rem;color:var(--muted)}
+</style></head><body><main>
+<header><img src="icons/com.hrhsofts.Setup-128.png" alt=""><div><h1>HRHsofts Apps</h1>
+<div class="pub">HRHsofts</div><div class="muted">Version 1.0.50 · Ubuntu 26.04 · GPL-3.0-or-later</div></div></header>
+<p>HRHsofts Setup, Browser, Calculator, Cleaner, Downloader, Image Viewer, Media Player, PDF Viewer, Recorder, Screen Capture and WhatsApp, designed by HRHsofts for GNOME, with a redesigned Files (Nautilus) experience, nearby sharing between HRHsofts computers, and cloud drives (Google Drive, OneDrive, Dropbox, Box, pCloud) with several accounts.</p>
+<h2 id="install">Install</h2>
+<p>Download <a href="pool/main/h/hrhsofts-apps/hrhsofts-apps_1.0.50_amd64.deb">hrhsofts-apps_1.0.50_amd64.deb</a>
+and open it, or add the repository so updates come through Software Updater:</p>
+<pre>sudo install -D -m 644 /dev/stdin /usr/share/keyrings/hrhsofts-archive-keyring.gpg &lt; &lt;(curl -fsSL https://hrhsofts-repos.github.io/apt/hrhsofts-archive-keyring.gpg)
+echo "Types: deb
+URIs: https://hrhsofts-repos.github.io/apt
+Suites: stable
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/hrhsofts-archive-keyring.gpg" | sudo tee /etc/apt/sources.list.d/hrhsofts.sources
+sudo apt update &amp;&amp; sudo apt install hrhsofts-apps</pre>
+<p id="help">Then open <b>HRHsofts Setup</b> to tick the apps and customizations you want. It removes them again the same way,
+and <i>Remove HRHsofts Completely</i> takes everything away.</p>
+<h2>Screenshots</h2><div class="grid"><figure><img loading="lazy" src="screenshots/setup.png" alt="Tick the apps and customizations to install or remove"><figcaption>Tick the apps and customizations to install or remove</figcaption></figure><figure><img loading="lazy" src="screenshots/browser.png" alt="Browser with news, ad blocking and a VPN switch"><figcaption>Browser with news, ad blocking and a VPN switch</figcaption></figure><figure><img loading="lazy" src="screenshots/downloader.png" alt="Downloader for links, videos and torrents"><figcaption>Downloader for links, videos and torrents</figcaption></figure><figure><img loading="lazy" src="screenshots/mediaplayer.png" alt="Media Player for local files and online video"><figcaption>Media Player for local files and online video</figcaption></figure><figure><img loading="lazy" src="screenshots/pdfviewer.png" alt="PDF Viewer with signing and scanning"><figcaption>PDF Viewer with signing and scanning</figcaption></figure><figure><img loading="lazy" src="screenshots/imageviewer.png" alt="Image Viewer with a filmstrip and editing"><figcaption>Image Viewer with a filmstrip and editing</figcaption></figure><figure><img loading="lazy" src="screenshots/screencapture.png" alt="Screenshots and screen recordings"><figcaption>Screenshots and screen recordings</figcaption></figure><figure><img loading="lazy" src="screenshots/recorder.png" alt="Sound Recorder"><figcaption>Sound Recorder</figcaption></figure><figure><img loading="lazy" src="screenshots/cleaner.png" alt="Cleaner removes junk and caches in one click"><figcaption>Cleaner removes junk and caches in one click</figcaption></figure><figure><img loading="lazy" src="screenshots/calculator.png" alt="Calculator"><figcaption>Calculator</figcaption></figure><figure><img loading="lazy" src="screenshots/whatsapp.png" alt="WhatsApp stays logged in until you log out"><figcaption>WhatsApp stays logged in until you log out</figcaption></figure><figure><img loading="lazy" src="screenshots/files.png" alt="Files with tabs, cloud drives and storage devices"><figcaption>Files with tabs, cloud drives and storage devices</figcaption></figure></div>
+</main></body></html>

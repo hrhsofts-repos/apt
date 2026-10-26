@@ -1,0 +1,20 @@
+Origin: HRHsofts
+Label: HRHsofts
+Suite: stable
+Codename: stable
+Date: Mon, 26 Oct 2026 18:53:09 UTC
+Architectures: amd64
+Components: main
+Description: HRHsofts desktop applications
+MD5Sum:
+ 3471d934a87ce555e1057c604b805a96     2076 main/binary-amd64/Packages
+ 1233b05910d76b2430e3200e106bd12d     1109 main/binary-amd64/Packages.gz
+ ebc69b652a1baca80b42cc568cc27f65     1394 main/dep11/Components-amd64.yml.gz
+ a7f61f22ce5f510f5e86b5c9ea3ffece     5717 main/dep11/icons-128x128.tar.gz
+ 2ce1e5481abe2b0e4505438753f3ea89     2208 main/dep11/icons-64x64.tar.gz
+SHA256:
+ 6fbc818e84af8c93983e82120af31e7446ced37e093ec593b9419355501426aa     2076 main/binary-amd64/Packages
+ 1c25dbd4b987b0a0f2528428e937b14b37e269a4ea4bc9959264d0b1208289d1     1109 main/binary-amd64/Packages.gz
+ 87f9eeccebbba400c4d987884b21653b612d3611574cb6f051972471d338f336     1394 main/dep11/Components-amd64.yml.gz
+ adbf7044d1b0f5c99949431c0413894f4dc6624e17ee0f9c34404b3134dac583     5717 main/dep11/icons-128x128.tar.gz
+ 30bdf9be0a80dd271ec57c8e02fbcac6a7a3ac3ec4216a119ecc54974aeb7e98     2208 main/dep11/icons-64x64.tar.gz
