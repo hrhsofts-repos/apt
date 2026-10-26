@@ -5,27 +5,33 @@ Origin: HRHsofts
 Label: HRHsofts
 Suite: stable
 Codename: stable
-Date: Mon, 26 Oct 2026 18:53:09 UTC
+Date: Mon, 26 Oct 2026 18:58:38 UTC
 Architectures: amd64
 Components: main
 Description: HRHsofts desktop applications
 MD5Sum:
  3471d934a87ce555e1057c604b805a96     2076 main/binary-amd64/Packages
  1233b05910d76b2430e3200e106bd12d     1109 main/binary-amd64/Packages.gz
+ 2650eb23cc90468e0a729b0136c89a34     4435 main/dep11/Components-amd64.yml
  ebc69b652a1baca80b42cc568cc27f65     1394 main/dep11/Components-amd64.yml.gz
- a7f61f22ce5f510f5e86b5c9ea3ffece     5717 main/dep11/icons-128x128.tar.gz
- 2ce1e5481abe2b0e4505438753f3ea89     2208 main/dep11/icons-64x64.tar.gz
+ db88da0a2191690f2ae69e5387814d72    10240 main/dep11/icons-128x128.tar
+ 37a07db651d9ff0c66342ab9fb468aa8     5717 main/dep11/icons-128x128.tar.gz
+ 53221be1ae3955b5950b3e2ce3f15d13    10240 main/dep11/icons-64x64.tar
+ 40021c97a780fbfb158887ffabbb4cd6     2208 main/dep11/icons-64x64.tar.gz
 SHA256:
  6fbc818e84af8c93983e82120af31e7446ced37e093ec593b9419355501426aa     2076 main/binary-amd64/Packages
  1c25dbd4b987b0a0f2528428e937b14b37e269a4ea4bc9959264d0b1208289d1     1109 main/binary-amd64/Packages.gz
+ b39a3930f5b343092a641f9554fdc219e5452e9ad0135b1dcd7ca94efaecd95a     4435 main/dep11/Components-amd64.yml
  87f9eeccebbba400c4d987884b21653b612d3611574cb6f051972471d338f336     1394 main/dep11/Components-amd64.yml.gz
- adbf7044d1b0f5c99949431c0413894f4dc6624e17ee0f9c34404b3134dac583     5717 main/dep11/icons-128x128.tar.gz
- 30bdf9be0a80dd271ec57c8e02fbcac6a7a3ac3ec4216a119ecc54974aeb7e98     2208 main/dep11/icons-64x64.tar.gz
+ 7cf65b2e6d5ae4260e5822572ee59d322d01c0496c1f31de0fc1997f72a4430b    10240 main/dep11/icons-128x128.tar
+ 835ed63f7d8e43a11d1d2c7a1e8bf6153e45b8569b2a6ec8aa76f7f68daa0d43     5717 main/dep11/icons-128x128.tar.gz
+ 265371145dcc1cb8fc5398edaec784c1faded99bb181d8cb843cb267872ac269    10240 main/dep11/icons-64x64.tar
+ 05a1da237dbd332426add5db8090a34f8c622f3611159cf2cf799bad29584a20     2208 main/dep11/icons-64x64.tar.gz
 -----BEGIN PGP SIGNATURE-----
 
-iKgEARYKAFAWIQQjenvdeW/N/su6YhWPWMs2obEMFgUCat+hlTIcMzA3NTExNDM4
+iKgEARYKAFAWIQQjenvdeW/N/su6YhWPWMs2obEMFgUCat+i3jIcMzA3NTExNDM4
 K2hyaHNvZnRzLXJlcG9zQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbQAKCRCPWMs2
-obEMFtxyAP9cvQkvxZl6NVwX/lOs6TCn3KbXMhsXfPQQ2A5Yqf9pQAD8DNkldgXp
-CODEkVZwk/6BrDILNsAaZ5wx8tWKVbDbqw0=
-=YRRE
+obEMFmwUAQD47HRoza6lCvxeINLuq2Go4/Ix6pnux1uOffLT6uIHCgEAvRiAMxZm
+mQvvRirZ0XIQ/7W+V5ARNM5o/vpWXHZdIgE=
+=70vM
 -----END PGP SIGNATURE-----
