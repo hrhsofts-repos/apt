@@ -5,33 +5,33 @@ Origin: HRHsofts
 Label: HRHsofts
 Suite: stable
 Codename: stable
-Date: Tue, 27 Oct 2026 02:03:04 UTC
+Date: Tue, 27 Oct 2026 02:38:29 UTC
 Architectures: amd64
 Components: main
 Description: HRHsofts desktop applications
 MD5Sum:
- 6ec22982b0fe3dd624d0f0e6b062e23e     8304 main/binary-amd64/Packages
- 821d146089790eaf9a055b2beadc8118     1527 main/binary-amd64/Packages.gz
- 9d218019c9f8a3e27705649231e43cc9     4596 main/dep11/Components-amd64.yml
- 4af0d60de7d5587c8123bf24c068ea5d     1490 main/dep11/Components-amd64.yml.gz
+ 7bf486946ed182d7d57862d988a060b3    10389 main/binary-amd64/Packages
+ 4c1b6844ac59acc41331e440fa483336     1667 main/binary-amd64/Packages.gz
+ e0c5a88a7fced147b775645b5ef52133     4590 main/dep11/Components-amd64.yml
+ 4e4e71d8ea70cf22874d1dcebc5e07b0     1494 main/dep11/Components-amd64.yml.gz
  db88da0a2191690f2ae69e5387814d72    10240 main/dep11/icons-128x128.tar
- 70f7e17cb518b92a40676f277b319618     5717 main/dep11/icons-128x128.tar.gz
+ 18120e13e7ca3a8e9335f02c40575d97     5717 main/dep11/icons-128x128.tar.gz
  53221be1ae3955b5950b3e2ce3f15d13    10240 main/dep11/icons-64x64.tar
- 993ae1d80822d1ae4b9634ef06f58f83     2208 main/dep11/icons-64x64.tar.gz
+ 2baa516dd7e07acc0c37d6718a55a7c3     2208 main/dep11/icons-64x64.tar.gz
 SHA256:
- 86a596d0913e22b3ae9fba0effe2241849edd4d9af49c85f48a6bdec13005f46     8304 main/binary-amd64/Packages
- 454349c94edd6d53afe088ca76c6f5fd20af953a86a1ad6fdc028c72a2ea6dfe     1527 main/binary-amd64/Packages.gz
- 6565a7a67dd164b398966015da53670fa658617d25ace2eb616081fdb6540bcc     4596 main/dep11/Components-amd64.yml
- 705c6b13e64409e9a283f66cc61f8265eed5dc97a5467ef439e31386c2deef6b     1490 main/dep11/Components-amd64.yml.gz
+ 25dd5db88ae8af233f432edd1b48471fb6e5d3eefa64c56106ef8587b4cd1799    10389 main/binary-amd64/Packages
+ 468c1db0c359cb21cd7b78a411e407063f7db2c2761ff29d2e947cedc3321a57     1667 main/binary-amd64/Packages.gz
+ e4ef10e73f526b290384b10ce0d1f8319ba0cf053a4d36f4cbb52f825f0ecfe5     4590 main/dep11/Components-amd64.yml
+ af645f33c24c49337bcd13fddf19b34431a64dd7accac7053023ddac1811eab8     1494 main/dep11/Components-amd64.yml.gz
  7cf65b2e6d5ae4260e5822572ee59d322d01c0496c1f31de0fc1997f72a4430b    10240 main/dep11/icons-128x128.tar
- aa145eacbe0b4ece0d273cb36694f04d1d695a364722755b12fd1264427b0889     5717 main/dep11/icons-128x128.tar.gz
+ a7fb7dd6e58f56bf69dc988a087a8135e5cc6c369ad689ce8f0233155d1f84bb     5717 main/dep11/icons-128x128.tar.gz
  265371145dcc1cb8fc5398edaec784c1faded99bb181d8cb843cb267872ac269    10240 main/dep11/icons-64x64.tar
- 7592ff0e50984796908912a856b30a9d9a4ecaa406ed8f6ba75b179210dd999b     2208 main/dep11/icons-64x64.tar.gz
+ 56b68f50ab81fb053527d0882f8828fb1ad4074b1b7f52a32bd6bfc90eb986d3     2208 main/dep11/icons-64x64.tar.gz
 -----BEGIN PGP SIGNATURE-----
 
-iKgEARYKAFAWIQQjenvdeW/N/su6YhWPWMs2obEMFgUCauAGWDIcMzA3NTExNDM4
+iKgEARYKAFAWIQQjenvdeW/N/su6YhWPWMs2obEMFgUCauAOpTIcMzA3NTExNDM4
 K2hyaHNvZnRzLXJlcG9zQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbQAKCRCPWMs2
-obEMFg/3AQD9ViagKa55CCUQR0oUb+9WLX5JXy99ZkGHgRqvCafGMQEA7ymn5fFo
-/webOCw8N/FupbNCty/I7BZs2zg052ESQQE=
-=bmHJ
+obEMFuQAAQCbnSF960srjh2VSrZw6O3F4u7NBvfRLa1k6pboZc30RwD9FGWUxemR
+WWvqYGxvV13TCWV1VeDzaxcCT74/P3ha7g0=
+=375R
 -----END PGP SIGNATURE-----
