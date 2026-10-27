@@ -103,3 +103,38 @@ Description: HRHsofts desktop applications
  nearby sharing between HRHsofts computers, and
  cloud drives (Google Drive, OneDrive, Dropbox, Box, pCloud) with several accounts.
 
+Package: hrhsofts-apps
+Version: 1.0.58
+Architecture: amd64
+Maintainer: HRHsofts <307511438+hrhsofts-repos@users.noreply.github.com>
+Installed-Size: 87608
+Depends: python3 (>= 3.12), python3-secretstorage, python3-gi, python3-gi-cairo, python3-cairo, gir1.2-gtk-4.0, gir1.2-adw-1,
+ gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gir1.2-gst-plugins-bad-1.0, gir1.2-poppler-0.18,
+ gir1.2-gexiv2-0.10, gir1.2-rsvg-2.0, gir1.2-graphene-1.0, gstreamer1.0-plugins-good,
+ gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-pipewire, gstreamer1.0-gtk4, python3-pil, python3-numpy,
+ python3-mpmath, python3-chardet, python3-pikepdf, ffmpeg, aria2, ghostscript, fuse3,
+ python3-nautilus, avahi-daemon, xdg-desktop-portal-gnome, libnss3-tools, libnss3, poppler-utils,
+ python3-cryptography, p11-kit-modules, sane-utils, gir1.2-webkit-6.0, libwebkitgtk-6.0-4,
+ gstreamer1.0-plugins-base, enchant-2, hunspell-en-us, geoclue-2.0, gir1.2-geoclue-2.0,
+ gir1.2-secret-1
+Recommends: gnome-sushi, wl-clipboard, opensc, sane-airscan, ipp-usb, ocrmypdf, tesseract-ocr, gstreamer1.0-plugins-ugly, heif-gdk-pixbuf, webp-pixbuf-loader,
+ libjxl-gdk-pixbuf, glycin-loaders, xdg-terminal-exec
+Suggests: yt-dlp
+Filename: pool/main/h/hrhsofts-apps/hrhsofts-apps_1.0.58_amd64.deb
+Size: 23923990
+MD5sum: cbced71ae8e2c6581b466e1632f62a35
+SHA1: 28f0bfca43f49b9289e5c50dce6580e2189b50a7
+SHA256: b7c409f31cd1cdb67302cbe4e557c6afe6da18b79349aea6bbce5a05827516b9
+Section: gnome
+Priority: optional
+Homepage: https://hrhsofts-repos.github.io/apt
+Description: HRHsofts desktop applications
+ HRHsofts Apps: everything is installed system-wide, for every account, like the
+ built-in applications. Open HRHsofts Setup to choose apps and customizations.
+ .
+ HRHsofts Setup, Browser, Calculator, Cleaner, Downloader, Image Viewer,
+ Media Player, PDF Viewer, Recorder, Screen Capture and WhatsApp,
+ designed by HRHsofts for GNOME, with a redesigned Files (Nautilus) experience,
+ nearby sharing between HRHsofts computers, and
+ cloud drives (Google Drive, OneDrive, Dropbox, Box, pCloud) with several accounts.
+
