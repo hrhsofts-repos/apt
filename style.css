@@ -30,4 +30,20 @@ th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vert
 .app-head{display:flex;gap:18px;align-items:center;flex-wrap:wrap}.app-head img{width:96px;height:96px}
 dl.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px}dl.facts dt{color:var(--muted)}dl.facts dd{margin:0;word-break:break-all}
 details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0}summary{cursor:pointer;font-weight:600}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:16px;margin:12px 0}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+figure a{display:block;line-height:0}figure img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:top;background:var(--code)}
+figcaption{padding:8px 12px;font-size:.92rem;color:var(--muted)}
+.gallery.wide{grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr))}
+ol.steps{list-style:none;counter-reset:step;padding:0;display:grid;gap:22px}
+ol.steps>li{counter-increment:step;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:20px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+ol.steps>li.noimg{grid-template-columns:minmax(0,1fr)}
+ol.steps h3{margin:0 0 4px}ol.steps h3::before{content:counter(step) ". ";color:var(--accent)}
+ol.steps p{margin:0;color:var(--muted)}ol.steps figure{border:0}
+@media (max-width:820px){ol.steps>li{grid-template-columns:minmax(0,1fr)}}
+dialog.lightbox{padding:0;border:0;background:transparent;max-width:96vw;max-height:96vh}
+dialog.lightbox::backdrop{background:rgba(0,0,0,.85)}
+dialog.lightbox img{max-width:96vw;max-height:88vh;width:auto;height:auto;display:block;border-radius:8px}
+dialog.lightbox p{color:#fff;margin:8px 4px;text-align:center}
+dialog.lightbox button{position:fixed;top:12px;right:16px;font-size:1.6rem;background:rgba(0,0,0,.5);color:#fff;border:0;border-radius:50%;width:44px;height:44px;cursor:pointer}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}footer div{max-width:1100px;margin:0 auto;padding:18px 16px}
