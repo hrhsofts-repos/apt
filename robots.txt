@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hrhsofts-repos.github.io/apt/sitemap.xml
