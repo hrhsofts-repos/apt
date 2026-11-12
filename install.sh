@@ -10,8 +10,8 @@
 # the apps update together with the rest of the system (Software Updater, "sudo apt upgrade").
 set -eu
 REPO=https://hrhsuiteupdates.blob.core.windows.net/apt
-APPS="calculator cipherpost cleaner downloader imageviewer mediaplayer pdfviewer recorder screencapture whatsapp"
-DESKTOP="files share cloud topbar windows-on-top desktop-menu desktop-defaults branding wallpapers"
+APPS="calculator cipherpost cleaner downloader imageviewer mediaplayer pdfviewer recorder screencapture whatsapp clocks weather remote-desktop firewall notes"
+DESKTOP="files share cloud topbar windows-on-top desktop-menu desktop-defaults branding wallpapers clipboard"
 
 if [ "$(id -u)" != 0 ]; then
     echo "Run it with sudo:  wget -qO- https://hrhsofts-repos.github.io/apt/install.sh | sudo sh" >&2
