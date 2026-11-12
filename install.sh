@@ -11,7 +11,7 @@
 set -eu
 REPO=https://hrhsuiteupdates.blob.core.windows.net/apt
 APPS="calculator cipherpost cleaner downloader imageviewer mediaplayer pdfviewer recorder screencapture whatsapp"
-DESKTOP="files share cloud topbar windows-on-top desktop-menu desktop-defaults branding"
+DESKTOP="files share cloud topbar windows-on-top desktop-menu desktop-defaults branding wallpapers"
 
 if [ "$(id -u)" != 0 ]; then
     echo "Run it with sudo:  wget -qO- https://hrhsofts-repos.github.io/apt/install.sh | sudo sh" >&2
