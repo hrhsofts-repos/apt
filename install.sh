@@ -10,7 +10,7 @@
 # the apps update together with the rest of the system (Software Updater, "sudo apt upgrade").
 set -eu
 REPO=https://github.com/hrhsofts-repos/apt/releases/download/stable
-APPS="calculator cipherpost cleaner downloader imageviewer mediaplayer pdfviewer recorder screencapture whatsapp clocks weather remote-desktop firewall notes"
+APPS="calculator cipherpost cleaner downloader imageviewer mediaplayer pdfviewer recorder screencapture whatsapp clocks weather remote-desktop firewall notes notepad ai"
 DESKTOP="files share cloud topbar windows-on-top desktop-menu desktop-defaults branding wallpapers clipboard"
 
 if [ "$(id -u)" != 0 ]; then
@@ -30,10 +30,10 @@ for name in "$@"; do
         *) list=${name#hrhsofts-} ;;
     esac
     for item in $list; do
-        case " $APPS $DESKTOP updater fast-boot " in
+        case " $APPS $DESKTOP updater fast-boot glass " in
             *" $item "*) packages="$packages hrhsofts-$item" ;;
             *) echo "Unknown HRHsuite component: $item" >&2
-               echo "Choose from: apps desktop all $APPS $DESKTOP fast-boot" >&2
+               echo "Choose from: apps desktop all $APPS $DESKTOP fast-boot glass" >&2
                exit 2 ;;
         esac
     done
