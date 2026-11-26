@@ -9,7 +9,7 @@
 # It first installs hrhsofts-updater, which adds the repository and its signing key; from then on
 # the apps update together with the rest of the system (Software Updater, "sudo apt upgrade").
 set -eu
-REPO=https://hrhsuiteupdates.blob.core.windows.net/apt
+REPO=https://github.com/hrhsofts-repos/apt/releases/download/stable
 APPS="calculator cipherpost cleaner downloader imageviewer mediaplayer pdfviewer recorder screencapture whatsapp clocks weather remote-desktop firewall notes"
 DESKTOP="files share cloud topbar windows-on-top desktop-menu desktop-defaults branding wallpapers clipboard"
 
@@ -52,7 +52,7 @@ fetch "$REPO/catalog.json" "$tmp/catalog.json"
 updater=$(python3 - "$tmp/catalog.json" <<'PY'
 import json, sys
 entry = json.load(open(sys.argv[1]))["packages"]["hrhsofts-updater"]
-if not entry["deb"].startswith("https://hrhsuiteupdates.blob.core.windows.net/apt/pool/"):
+if not entry["deb"].startswith("https://github.com/hrhsofts-repos/apt/releases/download/stable/"):
     raise SystemExit("unexpected package location")
 print(entry["deb"], entry["sha256"])
 PY
